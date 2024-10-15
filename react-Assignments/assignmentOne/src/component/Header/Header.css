@@ -1,0 +1,53 @@
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.leftHeader{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    /* background-color: yellowgreen; */
+}
+
+a, p, select, button{
+    color: gray;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+select{
+    border: none;
+}
+
+.rightHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    /* background-color: tomato; */
+}
+
+#register{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 30px;
+    background-color: white;
+    width: 80px;
+}
+
+#login{
+    background-color: transparent;
+    border: none;
+}
+
+
