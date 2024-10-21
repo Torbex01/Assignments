@@ -1,0 +1,77 @@
+.FooterContainer{
+    background-color: rgba(233, 237, 238, 0.692);
+    width: 100%;
+    height: 100vh;
+    margin: 40px 0;
+    margin-bottom: 0;
+}
+.Footer{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    
+
+    main{
+        height: 500px;
+        /* background-color: darkred; */
+        width: 300px;
+        
+        h2{
+            margin: 38px;
+            font-size: 25px;
+        }
+        ul{
+            line-height: 1.2;
+            font-size: 17px;
+            font-weight: 500;
+            color: #2c2b2b;
+            cursor: pointer;
+        }
+        
+        ul:hover{
+            color: blue;
+        }
+    }
+}
+
+
+
+.social{
+    width: 90%;
+    height: 120px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: firebrick; */
+    border-top: 1px solid #c9c7c7;
+    
+
+    img{
+        width: 25px;
+        cursor: pointer;
+    }
+
+    .icons{
+        width: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    p{
+        color: #2c2b2b;
+    }
+    span{
+        font-weight: 600;
+        color: #000000;
+        cursor: pointer;
+    }
+    span:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+}

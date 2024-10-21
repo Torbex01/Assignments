@@ -1,0 +1,45 @@
+.profilecard{
+    width: 250px;
+    height: 380px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 5px solid rgb(85, 130, 189);
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+
+    img{
+        width: 98%;
+        height: 98%;
+        border-radius: 10px;
+    }
+
+    .imageSpace{
+        width: 150px;
+        height: 150px;
+        border-radius: 15px;
+        border: 2px solid orange;
+        background-color: azure;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name{
+        margin-top: 50px;
+        font-size: 23px;
+    }
+}
+
+.lightTheme{
+    background-color: white;
+}
+
+.darkTheme{
+    background-color: black;
+    color: white;
+}

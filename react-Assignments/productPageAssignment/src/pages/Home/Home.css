@@ -1,0 +1,19 @@
+.ProductList{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: rgba(210, 219, 167, 0.75);
+    height: auto;
+    
+    gap: 10px;
+    
+}
+
+.rows{
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    /* background-color: green; */
+    justify-content: space-evenly;
+
+}
